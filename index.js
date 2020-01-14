@@ -19,6 +19,8 @@ app.get('/', function(req, res){
  app.get('/Register', (req, res) =>{
     res.render('Register.ejs')
 })
+
+
  app.listen(PORT, () => { 
      console.log(`Server is listening on port: ${PORT}`);  
  });
